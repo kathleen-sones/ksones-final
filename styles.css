@@ -3,7 +3,7 @@
 
 nav {
 	font-family: 'Mrs Sheppards', cursive;
-	font-size: 270%;
+	font-size: 240%;
 	width: 100%;
 	height: 60px;
 	text-align:center;
@@ -17,4 +17,31 @@ li {
 	margin-left: 40px;
 	margin-right: 40px;
 	line-height: 60px;
+}
+
+h1 {
+	font-family: 'Mrs Sheppards', cursive;
+	font-size: 270%;
+	width: 100%;
+	height: 60px;
+	align:left;
+	margin-left:100px;
+
+}
+	
+h2 {
+	font-family: 'Mrs Sheppards', cursive;
+	font-size: 170%;
+	width: 100%;
+	height: 60px;
+	align:left;
+	margin-bottom:-40px;
+	margin-top:200px;
+	}
+	
+	
+p { 
+	font-family: 'Montserrat', sans-serif;
+	width: 500px;
+	line-height: 30px;
 }
