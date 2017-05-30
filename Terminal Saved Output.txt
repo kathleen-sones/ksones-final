@@ -1,0 +1,156 @@
+Last login: Thu May 25 18:18:56 on console
+grc-sudan:~ ksones$ pwd desktop
+/Users/ksones
+grc-sudan:~ ksones$ cd desktop
+grc-sudan:desktop ksones$ cd final
+grc-sudan:final ksones$ cd ..
+grc-sudan:desktop ksones$ git clone https://github.com/kathleen-sones/ksones-final.git
+Cloning into 'ksones-final'...
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 14 (delta 2), pack-reused 0
+Unpacking objects: 100% (15/15), done.
+grc-sudan:desktop ksones$ cd ksones-final
+grc-sudan:ksones-final ksones$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+grc-sudan:ksones-final ksones$ git log
+commit d63c2523685a5da9950023e55cd6e1f26376a56a
+Author: Kathleen Sones <ksones@caloly.edu>
+Date:   Tue May 16 14:53:12 2017 -0700
+
+    nav bar spacing
+
+commit dc4f7a3940fd860480d3a363e8e7b9c159e89c32
+Author: Kathleen Sones <ksones@caloly.edu>
+Date:   Tue May 16 14:41:28 2017 -0700
+
+    fonts
+
+commit f5d1b1c88ad15dffb7b5434bce8ac42c6e5cf132
+Author: Kathleen Sones <ksones@caloly.edu>
+Date:   Tue May 16 14:09:54 2017 -0700
+
+    beginning bits
+
+commit 2103f858c18b7ca80697c3d047992d5e27cdb1b2
+Author: Kathleen Sones <ksones@caloly.edu>
+Date:   Tue May 16 13:48:45 2017 -0700
+
+    added files
+grc-sudan:ksones-final ksones$ open
+Usage: open [-e] [-t] [-f] [-W] [-R] [-n] [-g] [-h] [-b <bundle identifier>] [-a <application>] [filenames] [--args arguments]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                Opens with the specified application.
+      -b                Opens with the specified application bundle identifier.
+      -e                Opens with TextEdit.
+      -t                Opens with default text editor.
+      -f                Reads input from standard input and opens with TextEdit.
+      -F  --fresh       Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal      Selects in the Finder instead of opening.
+      -W, --wait-apps   Blocks until the used applications are closed (even if they were already running).
+          --args        All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new         Open a new instance of the application even if one is already running.
+      -j, --hide        Launches the app hidden.
+      -g, --background  Does not bring the application to the foreground.
+      -h, --header      Searches header file locations for headers matching the given filenames, and opens them.
+grc-sudan:ksones-final ksones$ open .
+grc-sudan:ksones-final ksones$ cd ksones-final
+-bash: cd: ksones-final: No such file or directory
+grc-sudan:ksones-final ksones$ cd ..
+grc-sudan:desktop ksones$ cd ksones-final
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "links"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ksones@grc-sudan.(none)')
+grc-sudan:ksones-final ksones$ git config --global user.email "ksones@calpoly.edu"
+grc-sudan:ksones-final ksones$ git config --global user.name "kathleen-sones"
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "links"
+[master fb810d7] links
+ 8 files changed, 50 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 aboutus.html
+ create mode 100644 contact.html
+ create mode 100644 faq.html
+ create mode 100644 gallery.html
+ mode change 100644 => 100755 index.html
+ create mode 100644 products.html
+ mode change 100644 => 100755 styles.css
+grc-sudan:ksones-final ksones$ git push
+Username for 'https://github.com': kathleen-sones
+Password for 'https://kathleen-sones@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.22 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/kathleen-sones/ksones-final.git
+   d63c252..fb810d7  master -> master
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "text"
+[master 112ba9d] text
+ 7 files changed, 86 insertions(+), 7 deletions(-)
+grc-sudan:ksones-final ksones$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 3.95 KiB | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/kathleen-sones/ksones-final.git
+   fb810d7..112ba9d  master -> master
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "nav bars and page set up"
+[master 17a3138] nav bars and page set up
+ 6 files changed, 90 insertions(+), 1 deletion(-)
+grc-sudan:ksones-final ksones$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.13 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/kathleen-sones/ksones-final.git
+   112ba9d..17a3138  master -> master
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "fixed mystery : and edited nav bar"
+[master 7bfa2d8] fixed mystery : and edited nav bar
+ 7 files changed, 28 insertions(+), 6 deletions(-)
+grc-sudan:ksones-final ksones$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 867 bytes | 0 bytes/s, done.
+Total 9 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/kathleen-sones/ksones-final.git
+   17a3138..7bfa2d8  master -> master
+grc-sudan:ksones-final ksones$ git add -A
+grc-sudan:ksones-final ksones$ git commit -m "more text"
+[master d26ceee] more text
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+grc-sudan:ksones-final ksones$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.12 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kathleen-sones/ksones-final.git
+   7bfa2d8..d26ceee  master -> master
+grc-sudan:ksones-final ksones$ 
