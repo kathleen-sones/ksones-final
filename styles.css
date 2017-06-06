@@ -24,7 +24,7 @@ li {
 h1 {
 	font-family: 'Mrs Sheppards', cursive;
 	font-size: 270%;
-	width: 100%;
+	width: 500px;
 	height: 60px;
 	align:left;
 	margin-left:100px;
@@ -35,7 +35,7 @@ h1 {
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
-	width: 100%;
+	width: 500px;
 	height: 60px;
 	letter-spacing: 5px;
 	align:left;
@@ -103,4 +103,17 @@ figure.slider figure {
 	height: auto;
 	display: inline-block;
 	position: inherit;
+}
+
+.contact {
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+	width: 500px;
+	line-height: 30px;
+}
+
+img {
+	margin-top:250px;
+	float:right;
+	margin-right: 100px;
 }
