@@ -21,6 +21,12 @@ li {
 	padding-top: 30px;
 }
 
+.logo {
+	float:left;
+	margin-top:-40px;
+	margin-left:20px;
+}
+
 h1 {
 	font-family: 'Mrs Sheppards', cursive;
 	font-size: 270%;
@@ -94,20 +100,21 @@ a:hover {
 }
 
 #slider {
-	overflow:hidden
+	overflow:hidden;
+	float:right;	
 }
 
 #slider figure img{
 	width:20%;
-	float:left;
+	float:right;
 }
 
 #slider figure {
 	position: relative;
-	width: 500%;
+	width: 300%;
 	margin:0;
 	left:0;
-	text-align:left;
+	text-align:center;
 	font-size:0;
 	animation: 20s slidy infinite;
 }
