@@ -80,29 +80,38 @@ a:hover {
 }
 
 
-
-
-#gallery {
-	width: 100%;
-	overflow: hidden;
+@keyframes slidy{
+	0% {left:0%;}
+	10% {left:0%;}
+	15% {left:-100%;}
+	35% {left:-100%;}
+	40% {left:-200%;}
+	60% {left:-200%;}
+	65% {left:-300%;}
+	85% {left:-300%;}
+	90% {left:-400%;}
+	100% {left:-400%;}
 }
 
-figure { margin: 0; 
+#slider {
+	overflow:hidden
 }
 
-figure.slider {
+#slider figure img{
+	width:20%;
+	float:left;
+}
+
+#slider figure {
 	position: relative;
 	width: 500%;
-	font-size: 0;
-	animation: 3s slidy infinite;
+	margin:0;
+	left:0;
+	text-align:left;
+	font-size:0;
+	animation: 20s slidy infinite;
 }
 
-figure.slider figure {
-	width: 20%;
-	height: auto;
-	display: inline-block;
-	position: inherit;
-}
 
 .contact {
 	display:inline-block;
