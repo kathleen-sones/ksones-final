@@ -8,6 +8,7 @@ nav {
 	height: 60px;
 	text-align:right;
 	margin-top: -20px;
+	margin-right: 20px;
 }
 
 ul {
@@ -25,6 +26,13 @@ li {
 	float:left;
 	margin-top:-40px;
 	margin-left:20px;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+	
 }
 
 h1 {
@@ -70,19 +78,19 @@ h3 {
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: #f4ff0b;
 }
 
 a:visited {
-	color: black;
+	color: #f4ff0b;
 }
 
 a:active {
-	color:#185D83;
+	color:#FF20EC;
 }
 
 a:hover {
-	color:#185D83;
+	color:#ff5d15;
 }
 
 
@@ -101,7 +109,9 @@ a:hover {
 
 #slider {
 	overflow:hidden;
-	float:right;	
+	float:right;
+	margin-right: 30px;
+	margin-top:-200px;
 }
 
 #slider figure img{
@@ -131,4 +141,10 @@ img {
 	margin-top:250px;
 	float:right;
 	margin-right: 100px;
+}
+
+.end {
+	margin-left:5px;
+	float:left;
+	margin-top:-10px;
 }
