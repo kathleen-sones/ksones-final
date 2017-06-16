@@ -148,3 +148,16 @@ img {
 	float:left;
 	margin-top:-10px;
 }
+
+
+.gallery {
+	float:left;
+	clear:both;
+}
+
+.pgallery {
+	float:left;
+	clear:both;
+	margin-left:96px;
+	margin-top:-20px;
+}
