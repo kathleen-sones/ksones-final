@@ -38,12 +38,10 @@ body {
 h1 {
 	font-family: 'Mrs Sheppards', cursive;
 	font-size: 270%;
-	width: 500px;
 	height: 60px;
-	align:left;
 	margin-left:100px;
 	word-spacing: 10px;
-
+	width:50vw;
 }
 	
 h2 {
@@ -52,7 +50,6 @@ h2 {
 	width: 500px;
 	height: 60px;
 	letter-spacing: 5px;
-	align:left;
 	margin-bottom:-45px;
 	margin-top:200px;
 	}
@@ -160,4 +157,20 @@ img {
 	clear:both;
 	margin-left:96px;
 	margin-top:-20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+	nav ul {
+  		width:50vw;
+  		height: auto;
+  	}
+	
+	nav li {
+		width:50vw;
+		font-size:90%;
+	}
+
+	
 }
